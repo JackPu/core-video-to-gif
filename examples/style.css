@@ -1,0 +1,262 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  font-size: 16px;
+  font-family: Helvetica, 'Microsoft Yahei', SimHei, arial, sans-serif;
+  background:#e3e3e3;
+}
+html,body{
+  height: 100%;
+}
+.video-container{
+  position: relative;
+  width: 100%;
+}
+.page{
+  position: relative;
+  width: 100%;
+}
+img{
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+img + p{
+  font-size: 13px;
+  color: #ddd;
+  text-align: center;
+}
+a{
+  color: #f985ef;
+  text-decoration: none;
+  transition: all .2s ease;
+}
+a:hover{
+  color: #f985ef;
+}
+h1{
+  text-align: center;
+  margin-top: 0;
+  padding-top: 120px;
+  padding-bottom: 40px;
+  font-family: 'Righteous', cursive;
+  font-size: 60px;
+  letter-spacing: 2px;
+  text-shadow: 0 6px 1px rgba(0,0,0,0.2);
+}
+h1 img{
+  width: 480px;
+}
+h2{
+  color: #333;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+ul{
+  padding-left: 40px;
+}
+code{
+  word-break: break-all;
+}
+.js-navbar{
+  display: none;
+}
+.js-navbar.active{
+  display: block;
+  background-color: rgba(255, 255, 255, .95);
+}
+.doc-hd{
+  min-height: 75vh;
+  background: #2d323c url(//img1.vued.vanthink.cn/vuedb3895d8586591934107c96fbfda1f548.jpeg) center bottom;
+  background-size: cover;
+  color:#f985ef;
+  text-align: center;
+}
+.doc-hd p {
+  font-size: 20px;
+  color: #888;
+  padding: 20px 0;
+}
+.btn-install{
+  padding: 12px 36px;
+  border-radius: 50px;
+  font-size: 18px;
+  color: #f985ef;
+  background: #2d323c;
+  border:2px solid #f985ef;
+}
+.btn-install:hover{
+  color:#fff;
+  border-color:#fff;
+ ;
+}
+.doc .btn-primary{
+  background-color: #f985ef;
+  color: #eee;
+  border-color: #f985ef;
+  border-radius: 20px;
+}
+.doc .btn-default{
+  border-radius: 20px;
+}
+.doc .btn:hover{
+  box-shadow: 0 2px 4px rgba(0,0,0, .25);
+}
+.contents{
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.15);
+  max-width: 720px;
+  margin: 0 auto 40px auto;
+}
+.doc-ft{
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background: #2d323c;
+  color:#555;
+  font-size: 13px;
+  text-align: center;
+}
+pre{
+  border-width: 0px;
+}
+@media all and (max-width:960px) {
+  h2,.doc,.img-wrap{
+      width:100%;
+      flex-wrap: wrap;
+ }
+  .img-wrap .item{
+      width: 100%' 
+ }
+  .js-navbar.active{
+      display: none;
+ }
+}
+/** view doc https://highlightjs.org **/
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #f7f7f7;
+}
+.hljs, .hljs-subst {
+  color: #2c3e50;
+}
+.hljs-comment {
+  color: #999;
+}
+.hljs-keyword, .hljs-attribute, .hljs-selector-tag, .hljs-meta-keyword, .hljs-doctag, .hljs-name {
+  font-weight: bold;
+}
+.hljs-type, .hljs-string, .hljs-number, .hljs-selector-id, .hljs-selector-class, .hljs-quote, .hljs-template-tag, .hljs-deletion {
+  color: #e74c3c;
+}
+.hljs-title, .hljs-section {
+  color: #e74c3c;
+  font-weight: bold;
+}
+.hljs-regexp, .hljs-symbol, .hljs-variable, .hljs-template-variable, .hljs-link, .hljs-selector-attr, .hljs-selector-pseudo {
+  color: #bc6060;
+}
+.hljs-literal {
+  color: #78a960;
+}
+.hljs-built_in, .hljs-bullet, .hljs-code, .hljs-addition {
+  color: #16a085;
+}
+.hljs-meta {
+  color: #2980b9;
+}
+.hljs-meta-string {
+  color: #2980b9;
+}
+.hljs-emphasis {
+  font-style: italic;
+}
+.hljs-strong {
+  font-weight: bold;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background: transparent;
+  color: #f6e342;
+}
+.btn{
+  border-radius: 0;
+  transition: all .2s ease-in;
+  padding: 8px 30px;
+}
+.loading-area {
+  display: none;
+  position: relative;
+  height: 360px;
+}
+.preloading-layer{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.preloading-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 75px;
+  margin-left: -50px;
+  margin-top: -40px;
+}
+.h5-layer-loading {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+.spinner {
+  animation: rotator 1.4s linear infinite;
+}
+@keyframes rotator {
+  0% {
+      transform: rotate(0deg);
+ }
+  100% {
+      transform: rotate(270deg);
+ }
+}
+@keyframes rotator2 {
+  0% {
+      transform: rotate(0deg);
+ }
+  100% {
+      transform: rotate(270deg);
+ }
+}
+.path {
+  stroke-dasharray: 188.8;
+  stroke-dashoffset: 0;
+  transform-origin: center;
+  animation: dash 1.4s ease-in-out infinite;
+}
+@keyframes dash {
+  0% {
+      stroke-dashoffset: 188.8;
+      opacity: 0;
+ }
+  50% {
+      stroke-dashoffset: 47.2;
+      transform:rotate(135deg);
+      opacity: 1;
+ }
+  100% {
+      stroke-dashoffset: 188.8/4;
+      transform:rotate(450deg);
+      opacity: 0;
+ }
+}

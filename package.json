@@ -1,10 +1,13 @@
 {
   "name": "core-video-to-gif",
   "version": "1.0.0",
-  "description": "",
+  "description": "a JavaScript library to convert video to gif",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "ykit server -p 9001",
+    "build": "ykit pack -m",
+    "release": "ykit pack -m --deploy true",
+    "validate": "npm ls"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/JackPu/core-video-to-gif/issues"
   },
-  "homepage": "https://github.com/JackPu/core-video-to-gif#readme"
+  "homepage": "https://github.com/JackPu/core-video-to-gif#readme",
+  "devDependencies": {
+    "ykit": "^0.8.0",
+    "ykit-config-es6": "^3.2.1"
+  },
+  "dependencies": {
+    "daycaca": "^1.0.2",
+    "gif.js": "^0.2.0",
+    "ykit-config-es6": "^3.2.1"
+  }
 }
