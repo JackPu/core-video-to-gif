@@ -2,6 +2,8 @@
 
 A JavaScript library to convert video to gif
 
+<img width="240" src="./docs/core-video-to-gif.png">
+
 [中文文档](./docs/README-ZH.md)
 
 ## Get Started

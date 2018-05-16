@@ -2,6 +2,8 @@
 
 一款支持将视频截取为 gif 的前端 JavaSCript 类库。
 
+<img width="240" src="./docs/core-video-to-gif.png">
+
 ## Get Started
 
 ### NPM
@@ -110,7 +112,7 @@ v2g.shot({
 
 ### shot(params, callback)
 
- You could use the method to get the video screenshots.
+ 截取某个片段的截图
 
  ``` js
  // get current screenshot
@@ -141,13 +143,13 @@ v2g.shot({
     <tr>
         <td>start</td>
         <td>Number</td>
-        <td>the screenshot start time</td>
+        <td>开始的时间</td>
         <td>6(s)</td>
     </tr>
     <tr>
         <td>end</td>
         <td>Number</td>
-        <td>the screenshot end time</td>
+        <td>结束的时间</td>
         <td>7(s)</td>
     </tr>
 </table>

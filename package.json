@@ -1,8 +1,8 @@
 {
   "name": "core-video-to-gif",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a JavaScript library to convert video to gif",
-  "main": "index.js",
+  "main": "src/core-video-to-gif.js",
   "scripts": {
     "dev": "ykit server -p 9001",
     "build": "ykit pack -m",
