@@ -2,7 +2,7 @@
 
 一款支持将视频截取为 gif 的前端 JavaSCript 类库。
 
-<img width="240" src="./docs/core-video-to-gif.png">
+<img width="240" src="./core-video-to-gif.png">
 
 ## Get Started
 

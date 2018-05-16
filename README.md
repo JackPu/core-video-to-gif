@@ -1,6 +1,6 @@
 # core-video-to-gif
 
-A JavaScript library to convert video to gif
+A JavaScript Library To Convert Video Fragments To Gif.
 
 <img width="240" src="./docs/core-video-to-gif.png">
 
