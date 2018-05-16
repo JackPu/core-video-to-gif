@@ -14,7 +14,7 @@ const DEFAULT_OPTIONS = {
   fps: 6, // how many frame per second
   quality: 10,
   worker: 2,
-  workerScript: 'http://s1.vued.vanthink.cn/6b20b2cd4809/gif-worker.js',
+  // workerScript: 'http://s1.vued.vanthink.cn/6b20b2cd4809/gif-worker.js',
   // some events
   onGifProcess () {},
   onGifFinished () {},

@@ -2,6 +2,8 @@
 
 A JavaScript library to convert video to gif
 
+[中文文档](./docs/README-ZH.md)
+
 ## Get Started
 
 ### NPM
@@ -45,6 +47,12 @@ v2g.shot({
         <th>Element</th>
         <th>The video element</th>
         <th>&lt;video ... &gt;</th>
+    </tr>
+    <tr>
+        <th> workerScript</th>
+        <th>String</th>
+        <th>enable Web Worker</th>
+        <th>Please inclued the [script](https://github.com/JackPu/core-video-to-gif/blob/master/examples/gif.worker.js), and specify the path</th>
     </tr>
     <tr>
         <td>width</td>

@@ -5,7 +5,6 @@ $(function () {
     parentEl: document.querySelector('.video-container'),
     width: 640,
     height: 360,
-    workerScript: './gif.worker.js',
     onGifProcess: function () {
       $('.loading-area').show()
     },
