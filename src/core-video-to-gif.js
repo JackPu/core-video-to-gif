@@ -9,7 +9,7 @@ import './style.less'
 
 const DEFAULT_OPTIONS = {
   skip: false, // weather seek video
-  shotAnimation: true,
+  shotAnimation: false,
   maxTime: 10,
   fps: 6, // how many frame per second
   quality: 10,

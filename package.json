@@ -1,6 +1,6 @@
 {
   "name": "core-video-to-gif",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a JavaScript library to convert video to gif",
   "main": "dev/core-video-to-gif.js",
   "scripts": {

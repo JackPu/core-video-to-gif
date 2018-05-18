@@ -23,7 +23,9 @@ $ npm install core-video-to-gif --save
 ``` js
 const v2g = new CoreVideoToGif({
     // specify the video element
-    el: document.querySelector('video')
+    el: document.querySelector('video'),
+    // video 的父容器
+    parentEl: document.querySelector('.conatiner')
 })
 v2g.shot({
     // options,
